@@ -1,0 +1,6 @@
+/* Remove border below tabs for uniform look
+ */
+
+body.layout-minimal .mod-root .workspace-tabs.mod-top .workspace-tab-header-container {
+    border-bottom-color: transparent !important;
+}
