@@ -9,11 +9,16 @@ You can download from the [Baseline marketplace](https://aaaaalexis.github.io/ob
 ## Snippets
 You can download the CSS for each snippet and add them to obsidian by navigating to the bottom of the appearance tab in settings they do the following 
 
-Clean workspace 
-- Removes a divider between the tab bar and tab title bar for a more unified look
+**Clean workspace** 
+- Removes the outlines and dividers in workspace 
 
-Gnome tab title style
-- Adds a box around the tab title to resemble adwaita applications
+**Gnome tab title style** 
+- Styles title bar with a box 
 
-Gnome window close button
-- Replaces windows style minimise maximise and close with a singular rounded close button 
+**Gnome window close button** 
+- Replaces windows style minimise and maximise with a singular rounded close button
+
+**Gnome style tabs** 
+- Causes for tabs to stetch to fill tab bar
+
+*Pictures of each change can be seen in the Pics folder :)*
