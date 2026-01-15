@@ -1,0 +1,19 @@
+/* Remove border below tabs for uniform look
+ */
+
+body.layout-minimal .mod-root .workspace-tabs.mod-top .workspace-tab-header-container {
+    border-bottom-color: transparent !important;
+}
+
+body.layout-minimal .workspace-leaf-resize-handle {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+body.layout-minimal .workspace-ribbon.mod-left {
+    border-right-color: transparent !important;
+}
+
+.status-bar {
+    border: none !important;
+}

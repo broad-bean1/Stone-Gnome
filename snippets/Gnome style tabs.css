@@ -1,0 +1,101 @@
+/* Gnome style tabs */
+
+/*
+The tabs
+*/
+
+body {
+    --tab-radius: 8px;
+    --tab-radius-active: 8px;
+    --tab-curve: 0px; 
+    --tab-outline-width: 0px;
+    --tab-width: 1000px !important; 
+    --tab-max-width: none !important; 
+}
+
+.mod-root .workspace-tab-header-container-inner {
+    gap: 0 !important;
+    padding: 0 4px !important;
+    width: 100% !important;
+}
+
+.mod-root .workspace-tab-header {
+    background-color: var(--background-primary) !important;
+    border-radius: 8px !important;
+    padding: 0px 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;  
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.mod-root .workspace-tab-header.is-active {
+    background-color: var(--background-secondary) !important; 
+    z-index: 2;
+}
+
+.mod-root .workspace-tab-header:hover:not(.is-active) {
+    background-color: var(--background-modifier-hover) !important;
+}
+
+.mod-root .workspace-tab-header-inner {
+    height: 100% !important;
+}
+
+.mod-root .workspace-tab-header-inner-title {
+    font-size: 0.85em; 
+    text-align: center;
+}
+
+.mod-root .workspace-tab-header.is-active::after,
+.mod-root .workspace-tab-header.is-active::before {
+    display: none !important;
+}
+
+.mod-root .workspace-tab-header-inner-close-button {
+    display: flex !important; 
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.mod-root .workspace-tab-header:hover .workspace-tab-header-inner-close-button {
+    opacity: 1;
+}
+
+.mod-root .workspace-tab-header-inner-title {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 24px;
+}
+
+.mod-root .workspace-tab-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+The tab divider
+*/
+
+.mod-root .workspace-tab-header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15%;      
+    bottom: 15%;
+    width: 2px;
+    background-color: var(--background-modifier-border);
+    opacity: 0.8;
+    z-index: 10;
+}
+.mod-root .workspace-tab-header:first-child::before {
+    display: none;
+}
+.mod-root .workspace-tab-header.is-active::before,
+.mod-root .workspace-tab-header.is-active + .workspace-tab-header::before,
+.mod-root .workspace-tab-header:hover::before,
+.mod-root .workspace-tab-header:hover + .workspace-tab-header::before {
+    opacity: 0;
+}
+
