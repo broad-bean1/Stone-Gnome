@@ -1,0 +1,71 @@
+/* 
+Personal extra tweaks to make it extra at home
+*/
+
+/*Hide min and max*/
+body:not(.mod-macos) .titlebar-button-container.mod-right .mod-minimize,
+body:not(.mod-macos) .titlebar-button-container.mod-right .mod-maximize {
+    display: none !important;
+}
+
+body:not(.mod-macos):not(.is-mobile) {
+    --frame-right-space: 34px !important; 
+}
+body:not(.mod-macos) .titlebar-button-container.mod-right {
+    width: 32px !important;
+    display: flex !important;
+    align-items: center !important;   
+    justify-content: center !important; 
+    padding-right: 16px;
+}    
+
+
+/*Tab title bar decoration*/
+.workspace-split.mod-root .view-header-title-container {
+    background-color: #3d3d40; 
+    border-radius: 9px; 
+    padding: 0px 12px;
+    padding-top: 2px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+/*Rounds and cleans status bar*/
+.status-bar {
+    border: none !important;
+    border-radius: 11px;
+    margin: 3px;
+    width: auto;
+    padding-left: 8px;
+}
+
+/*Rounds corner of the windows*/
+body {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.titlebar {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/*Hide divider between tabs and tab title*/
+body.layout-minimal .mod-root .workspace-tabs.mod-top .workspace-tab-header-container {
+    border-color: transparent !important;
+}
+
+/*stop tab name shifting on hover*/
+.mod-root .workspace-tab-header-inner-close-button {
+    display: flex !important; 
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.mod-root .workspace-tab-header:hover .workspace-tab-header-inner-close-button {
+    opacity: 1;
+}
+
+.mod-root .workspace-tab-header-inner-title {
+    padding-left: 24px;
+}
