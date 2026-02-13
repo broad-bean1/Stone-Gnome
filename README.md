@@ -1,5 +1,5 @@
 # Stone-Gnome
-A stylised Adwaita theme for a native look with little extra
+A stylised Adwaita theme for a native Gnome feel and modern look
 ![stone gnome and snippets image]()
 
 ## Baseline Theme 
