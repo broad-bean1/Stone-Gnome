@@ -1,24 +1,14 @@
 # Stone-Gnome
-A baseline obsidian theme and a few css snippets to make obsidian look like at home on Gnome with an Adwaita style
+A stylised Adwaita theme for a native look with little extra
+![stone gnome and snippets image]()
 
-![stone gnome and snippets image](Pics/stone-gnome+snippets.png)
-
-## Theme 
+## Baseline Theme 
 You can download from the [Baseline marketplace](https://aaaaalexis.github.io/obsidian-baseline/marketplace/) or download and import the JSON file into the style settings community add-on 
 
-## Snippets
-You can download the CSS for each snippet and add them to obsidian by navigating to the bottom of the appearance tab in settings they do the following 
-
-**Clean workspace** 
-- Removes the outlines and dividers in workspace 
-
-**Gnome tab title style** 
-- Styles title bar with a box 
-
-**Gnome window close button** 
-- Replaces windows style minimise and maximise with a singular rounded close button
-
-**Gnome style tabs** 
-- Causes for tabs to stetch to fill tab bar
-
-*Pictures of each change can be seen in the Pics folder :)*
+## Snippet
+Thanks to the great work of [@aaaaalexis](https://github.com/aaaaalexis) nearly all of Adwaitas defining traits are available by default in Baseline's Style Settings, due to this with the theme alone you can get 90% if the way but for some extra touches you can add my css snippet for
+- No min/max window button
+- Adwaita style tab title bar
+- Adwaita style status bar
+- Fix for tab titles
+- Rounded window corners (This doesn't work amazingly on fedora for me but is still better than default, give it a go and see for yourself)
