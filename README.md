@@ -1,6 +1,6 @@
 # Stone-Gnome
 A stylised Adwaita theme for a native Gnome feel and modern look
-![stone gnome and snippets image]()
+![stone gnome and snippets image](Stone-Gnome-Demo-Pic)
 
 ## Baseline Theme 
 You can download from the [Baseline marketplace](https://aaaaalexis.github.io/obsidian-baseline/marketplace/) or download and import the JSON file into the style settings community add-on 
